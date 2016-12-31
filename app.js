@@ -4,7 +4,7 @@ $('document').ready(function(){
 	$('form').on('submit',function(e){
 		e.preventDefault();
 		$('.js-search-results').remove();
-		$.getJSON(url,{
+		$.get(url,{
 			q : $('.js-query').val(),
 			APPID:'9faef37696585bee68c95c47cc4819a6',
 			units: 'imperial'
