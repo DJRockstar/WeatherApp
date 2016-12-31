@@ -1,0 +1,41 @@
+body{
+	margin-top: 100px;
+	background-color: lightcoral;
+	text-align:center;
+	background-image: url('weather.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.js-search-results{
+	width: 100%;
+	background-color: rgba(180,180,200,0.5);
+	border: 1px solid yellow;
+	border-radius: 5px;
+	height: 150px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 30px;
+	box-shadow: 5px 5px lightgrey;
+}
+
+li{
+	font-size: 2rem;
+	list-style: none;
+	line-height:125%;
+	font-size: larger;
+}
+
+.js-query{
+	padding: 11px;
+	width: 250px;
+	font-size: 16px;
+	margin: 0 auto;
+
+}
+
+p{
+	font-weight: bold;
+	display: inline;
+}
